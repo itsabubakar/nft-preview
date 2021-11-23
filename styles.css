@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -21,6 +22,7 @@ body {
     place-items: center;
     background-color: var(--very-dark-blue-main-BG);
     font-size: 1rem;
+    font-family: 'Outfit', sans-serif;
 }
 
 .container {
@@ -128,4 +130,5 @@ body .overlay img {
 
 .green {
     color: var(--Cyan);
+    font-weight: 600;
 }
